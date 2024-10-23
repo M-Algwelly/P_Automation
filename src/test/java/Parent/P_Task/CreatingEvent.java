@@ -47,8 +47,6 @@ public class CreatingEvent {
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 		
-		//driver.switchTo().alert().dismiss();
-		
 		driver.findElement(By.xpath("/html/body/app-root/app-main-layout/main/app-institution/div/div[2]/div/div[2]/div[1]/div[1]/div/div/div[2]\r")).click();
 		
 		driver.findElement(By.id("pushActionRefuse")).click();
@@ -57,20 +55,11 @@ public class CreatingEvent {
 		
 		driver.findElement(By.id("calendarTab")).click();
 
-		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-
-		//driver.findElement(By.xpath("/html/body/app-root/app-header/header/app-header-topbar/nav/div/app-header-navbar/div/nav/ul/li[2]/a/i")).click();
-		//driver.findElement(By.xpath("//*[@id=\"calendarTab\"]")).click();
-		
-		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		
 		driver.findElement(By.xpath("//*[@id=\"createEventBtn\"]/span[2]")).click();
 		
 		driver.findElement(By.id("eventTitle")).sendKeys("Test");
 		
 		driver.findElement(By.id("eventDescription")).sendKeys("Test");
-		
-		//driver.findElement(By.xpath("//*[@id=\"Recipients\"]/div/div/div[2]/input")).click();
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
