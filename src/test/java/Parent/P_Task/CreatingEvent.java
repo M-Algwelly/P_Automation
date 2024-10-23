@@ -82,10 +82,7 @@ public class CreatingEvent {
 		
 		
 	
-		//driver.findElement(By.cssSelector("#Recipients > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > input:nth-child(1)")).click();
 		
-
-		//driver.findElement(By.xpath("//*[@id=\"option_0\"]")).click();
 
 	}
 }
